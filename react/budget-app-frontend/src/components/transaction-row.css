@@ -1,0 +1,18 @@
+.transaction-row{
+  border-bottom: 1px solid;
+}
+.transaction-row:hover{
+  background-color: beige;
+}
+.positive{
+  background-color: #eff5fb;
+  color: #296fa8;
+}
+.negative{
+  background-color: #feecf0;
+  color: #cc0f35;
+}
+.th{
+  background-color: hsl(171, 100%, 41%);
+  color : white;
+}
