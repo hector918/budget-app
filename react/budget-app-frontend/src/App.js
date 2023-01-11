@@ -12,7 +12,6 @@ import New from './components/new-page';
 import Edit from './components/edit-page';
 import Delete from './components/delete-page';
 
-console.log(process.env.REACT_APP_API_URL);
 /////////////////////////////////
 
 function App() {

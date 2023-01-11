@@ -10,7 +10,7 @@ export default function Delete(){
 
   return (
     <div>
-      deleting
+      deleting...
     </div>
   )
 }

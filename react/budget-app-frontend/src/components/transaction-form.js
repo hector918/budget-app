@@ -4,8 +4,8 @@ import "react-datepicker/dist/react-datepicker.css";
 export default function TransactionForm({transaction,setTransaction,previus_data,onsave}){
   const [operator, setOperator] = useState("in");
   useEffect(()=>{
-    
-  },[])
+    setOperator(previus_data.amount>=0?"in":"out");
+  },[previus_data])
   ///////////////////////////////////////////
   // {
   //   item_name: string,

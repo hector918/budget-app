@@ -16,10 +16,8 @@ export default function MsgBoard({msg,setMsg}){
             </div>
             <div className="message-body">{el.body}</div>
           </article>
-          
         )
       })}
-      
     </div>
   )
 }
